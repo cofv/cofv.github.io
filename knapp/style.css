@@ -1,0 +1,16 @@
+body{
+    background-color: darkgoldenrod;
+    font-family: 'Secular One', sans-serif;
+}
+.main {
+    background-color: cornsilk;
+    width: 200px;
+}
+p{
+    padding: 40px;
+}
+button{
+    width: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
