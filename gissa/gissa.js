@@ -19,14 +19,14 @@ function gissaTal(){
             if (antalgisningar === 2)
             p_svar.innerHTML=`LOOSER!`;
             else
-            p_svar.innerHTML=`$(textfelt_gissa) är FEL! Gissning nr $(antalgisningar+1) av 3`;
+            p_svar.innerHTML=$(textfelt_gissa)+ "är FEL! Gissning nr " +$(antalgisningar+1)+ "av 3";
             document.getElementById("gissa").value="";
             document-getElementById("gissa").focus();
         }
         antalgisningar++;
     }
     else{
-        p_svar.innerHTML=`LOOSER`!
+        p_svar.innerHTML= "LOSSER!"
     }
 }
 console.log("slumptalet" + slumptal)
