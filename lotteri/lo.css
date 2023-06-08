@@ -1,3 +1,18 @@
 body{
-    background-color: cadetblue;
+    background-color: firebrick;  
+    font-family: 'CustomFont';
 }
+.container {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_the_Stasi.svg/1365px-Emblem_of_the_Stasi.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 900px; 
+    height: 600px; 
+    margin: 0 auto; 
+  }
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('kremlin\ copy.ttf') format('truetype');
+   
+  }

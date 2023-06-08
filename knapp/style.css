@@ -1,7 +1,18 @@
 body{
     background-color: darkgoldenrod;
     font-family: 'Secular One', sans-serif;
+    background-image: url('https://pngimg.com/uploads/corn/corn_PNG98629.png');
+    
 }
+.container {
+    background-image: url('https://pngimg.com/uploads/corn/corn_PNG98629.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    width: 300px; 
+    height: 200px; 
+    margin: 0 auto; 
+  }
 .main {
     background-color: cornsilk;
     width: 200px;

@@ -1,4 +1,8 @@
 body{
     background-color: crimson;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'CustomFont'
 }
+@font-face {
+    font-family: 'CustomFont';
+    src: url('SovietProgram.ttf') format('truetype');
+  }
