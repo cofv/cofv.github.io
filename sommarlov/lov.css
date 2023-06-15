@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('kremlin.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    background-color: darkred;
+}
+
+img {
+    width: 20%;
+}
